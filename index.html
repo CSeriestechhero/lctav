@@ -1,7 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title></title>
-</head>
-<body></body>
-</html>
+<title>LCT Animation & Video</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #222;
+}
+
+.navbar {
+  overflow: hidden;
+  background: linear-gradient(180deg, #00000044, #ffffff22);
+  backdrop-filter: blur(10px);
+  position: fixed;
+  bottom: 3px;
+  width: 100%;
+  border-top: 1px solid gray;
+  border-radius: 10px;
+}
+
+
+.navbar a {
+  float: left;
+  display: block;
+  background: linear-gradient(180deg, #ffffff99, #2f2f2f44);
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 4px;
+  border: 0.5px solid #ffffff44;
+}
+
+.navbar a:hover {
+  background: linear-gradient(180deg, #000000cc, #ffffff22);
+  color: white;
+}
+
+.navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.main {
+  padding: 16px;
+  margin-bottom: 30px;
+}
+</style>
+
+<div class="navbar">
+  <a href="home" class="active" target="nav">Home</a>
+  <a href="#news" target="nav">News</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<div class="main">
+  <iframe src="home" name="nav" style="position: fixed; height: 100%; width: 100%; padding: none; left: 0; right: 0; top: 0; bottom: 0px; border: none;"></p>
+</div>
